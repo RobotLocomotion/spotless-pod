@@ -2,8 +2,3 @@
 	path = spotless
 	url = https://github.com/spot-toolbox/spotless
 	branch = master
-[submodule "cmake"]
-	path = cmake
-	url = https://github.com/RobotLocomotion/cmake.git
-	branch = master
-	ignore = dirty
