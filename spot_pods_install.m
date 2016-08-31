@@ -26,4 +26,3 @@ fprintf(fptr,'function rmpath_spotless()\n');
 fprintf(fptr,'  mfiledir = fileparts(which(mfilename));\n');
 fprintf(fptr,'  rmpath(fullfile(mfiledir,''%s''));\n',pathdiff{:});
 fclose(fptr);
-
